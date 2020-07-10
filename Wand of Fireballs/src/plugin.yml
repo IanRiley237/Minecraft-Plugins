@@ -1,0 +1,5 @@
+name: WandOfFireballs
+version: 1.0
+author: ZombiDud
+main: me.ZombiDud.FireballWand.FireballWand
+description: Adds a Wand of Fireballs.
