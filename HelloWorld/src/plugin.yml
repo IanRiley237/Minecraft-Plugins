@@ -1,0 +1,10 @@
+name: HelloWorld
+version: 1.0
+author: ZombiDud
+main: me.ZombiDud.helloworld.Main
+description: My first Minecraft spigot plugin!
+
+commands:
+  hello:
+    aliases: [hi]
+    description: This is the hello command!

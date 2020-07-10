@@ -1,0 +1,11 @@
+name: BlockHurt
+version: 1.0
+author: ZombiDud
+main: me.ZombiDud.BlockHurt.Main
+description: My second Minecraft spigot plugin!
+
+commands:
+  BlockHurt:
+    aliases: [bh]
+    description: Use this command to cause a player to get hurt when they break or place blocks
+    usage: "Usage: /bh [Break or Place] [player] [damage]"
