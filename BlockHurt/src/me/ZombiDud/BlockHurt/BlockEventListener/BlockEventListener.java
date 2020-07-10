@@ -1,4 +1,4 @@
-package me.ZombiDud.BlockHurt.BlockBreakListener;
+package me.ZombiDud.BlockHurt.BlockEventListener;
 
 import me.ZombiDud.BlockHurt.Main;
 
@@ -15,7 +15,7 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
-public class BlockBreakListener implements CommandExecutor, Listener{
+public class BlockEventListener implements CommandExecutor, Listener{
 
 	int defaultBreakBlockDamageAmount = 1;
 	int defaultPlaceBlockDamageAmount = 1;
@@ -29,7 +29,7 @@ public class BlockBreakListener implements CommandExecutor, Listener{
 	// 1: Break
 	// 2: Place
 
-	public BlockBreakListener(Main plugin)
+	public BlockEventListener(Main plugin)
 	{
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
